@@ -1,5 +1,7 @@
 # Latest RabbitMQ.com version to install
 default['rabbitmq']['version'] = '3.4.4'
+# A local mirror can be provided here
+default['rabbitmq']['package_mirror'] = "https://www.rabbitmq.com/releases/rabbitmq-server/"
 # The distro versions may be more stable and have back-ported patches
 default['rabbitmq']['use_distro_version'] = false
 # Allow the distro version to be optionally pinned like the rabbitmq.com version
